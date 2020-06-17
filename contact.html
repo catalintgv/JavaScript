@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="contact.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits Shopping</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Magazin fructe</h1>
+            <img src="cos_fructe.jpg" alt="imagine lipsa">
+        </div>
+    </header>
+    <br>
+    <nav>
+        <ul>
+            <li id="home"><a href="index.html"><img src="home.png" alt="imagine lipsa"></a></li>
+            <li id="produse"><a href="produse.html"><img src="produse.jpg" alt="imagine lipsa"></a></li>
+            <li id="contact"><img src="contact.png" alt="imagine lipsa"></li>
+        </ul>
+    </nav>
+    <br>
+    <h1>Formular contact:</h1>
+
+    <form action="https://formspree.io/pinta.catalin@yahoo.com" method="POST">
+        <label>
+            E-mail
+            <input type="email" class="email">
+        </label>
+        <label>
+            Subject
+            <input type="text" class="subject">
+        </label>
+        <label>
+            Message
+            <textarea class="message" cols="30" rows="10"></textarea>
+        </label>
+        <div class="status"></div>
+        <button type="submit" class="submit">Send</button>
+    </form>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src= "contact.js"></script>
+
+</body>
+</html>
